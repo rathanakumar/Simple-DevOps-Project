@@ -14,6 +14,11 @@
    service docker start
    service docker status
    ```
+   
+1. Create a user group called docker
+ ```sh 
+   geroupadd docker
+   ```
 1. Create a user called dockeradmin
    ```sh
    useradd dockeradmin
